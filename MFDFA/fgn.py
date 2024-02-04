@@ -33,7 +33,6 @@ def fgn(N: int, H: float) -> np.ndarray:
 
     # Asserts
     assert isinstance(N, int), "Size must be an integer number"
-    assert isinstance(H, float), "Hurst index must be a float in (0,1)"
 
     # Generate linspace
     k = np.linspace(0, N - 1, N)
