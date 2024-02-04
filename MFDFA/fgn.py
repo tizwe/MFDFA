@@ -32,6 +32,7 @@ def fgn(N: int, H: float) -> np.ndarray:
     """
 
     # Asserts
+    # TEST
     assert isinstance(N, int), "Size must be an integer number"
 
     # Generate linspace
